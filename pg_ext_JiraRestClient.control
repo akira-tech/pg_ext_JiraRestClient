@@ -1,0 +1,5 @@
+# pg_ext_JiraRestClient extension
+comment = 'pg_jira - extension to access Atlassian Jira using restful API'
+default_version = '0.0.1'
+module_pathname = '$libdir/pg_ext_JiraRestClient'
+relocatable = true

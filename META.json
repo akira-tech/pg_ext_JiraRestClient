@@ -1,0 +1,39 @@
+{
+   "provides": {
+       "pg_ext_JiraRestClient": {
+			"abstract": "FDW extension for Atlassian Jira REST API",
+			"version": "0.0.1",
+			"file": "src/pg_ext_JiraRestClient.c"
+	   }
+   },
+   "name": "pg_ext_JiraRestClient",
+   "abstract": "FDW extension for Atlassian Jira REST API",
+   "tags": ["jira", "rest", "web service"],
+   "resources": {
+   	"bugtracker": {
+	    "web": "https://github.com/akira-tech/pg_ext_JiraRestClient/issues"
+	},
+	"repository": {
+	    "url": "git://github.com/akira-tech/pg_ext_JiraRestClient.git",
+	    "web": "https://github.com/akira-tech/pg_ext_JiraRestClient",
+	    "type": "git"
+	}
+   },
+   "release_status": "in-dev",
+   "version": "0.0.1",
+   "maintainer": [
+       "Alex Groisman <agroisman@akira-tech.com>"
+   ],
+   "license": "postgresql",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "prereqs": {
+      "runtime": {
+         "requires": {
+            "PostgreSQL": "9.2.0"
+         }
+      }
+   },
+}
